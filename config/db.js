@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 exports.connectDB = async () => {
   try {
-    await mongoose.connect('mongodb://localhost:27017/maindb', {
+    await mongoose.connect('mongodb://localhost:27017/bucket', {
       useCreateIndex: true,
       useFindAndModify: false,
       useNewUrlParser: true,
